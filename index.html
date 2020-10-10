@@ -85,8 +85,7 @@
             <h2 class="centro_Titulo">Presentacion</h2>
             <img src=" img/20200831_101115.jpg " alt="Imagen de mi mismo ">
             <div id="nDP_1_Texto ">
-                <p>¡Hola!, mi nombre es <b>Jorge Eliu Gonzalez Fierro</b> y estoy cursando en la carrera de <abbr title="Ingenieria en Software ">ISW</abbr> en la universidad de <abbr title="Instituto Tecnologico de Sonora ">ITSON</abbr> , estoy en mi 5to
-                    semestre y estoy haciendo este blog para mi clase de Aplicaciones Web.</p>
+                <p>¡Hola!, mi nombre es <b>Jorge Eliu Gonzalez Fierro</b>, tengo 20 años, y vivo en ciudad obregon, estoy cursando en la carrera de <abbr title="Ingenieria en Software ">ISW</abbr> en la universidad de <abbr title="Instituto Tecnologico de Sonora ">ITSON</abbr>                    , estoy en mi 5to semestre y estoy haciendo este blog para mi clase de Aplicaciones Web.</p>
                 <br>
                 <p>Mis principales Hobbies son; leer libros de ficcion, jugar videojuegos, cocinar (en general) y ver peliculas, a vece hago papiroflexia, ademas de ser una persona que gusta de analizar casos y poder interpretarlo de una manera diferente
                     para encontrar una explicación como por ejemplo los casos de un asesinato.
@@ -94,6 +93,9 @@
                 <br>
                 <p>Mi mayor meta es crear y publicar mi primera aplicacion (Web,Movil o escritorio) aplicando todo lo aprendido de mi carrera, esto me ayudara para projectos futuros obteniendo conocimiento haciendo practica, en todo caso este este blog es
                     otro paso para la meta final. </p>
+                <br>
+                <p>Mi correo es: jorge.gonzalez204494@potros.itson.edu.mx</p>
+
             </div>
         </article>
 
@@ -104,33 +106,26 @@
                 <h2 class="centro_Titulo">Contacto</h2>
                 <div id="formato1">
 
-                    <form action="mailto:supergonzalez360@gmail.com" method="POST" enctype="text/plain">
+                    <form action="mailto:supergonzalez360@gmail.com" method="post" enctype="text/plain">
 
                         <label for="nombreId">Nombre*: </label>
                         <input type="text" id="nombreId" name="nombre" size="15" maxlenght="40" required />
                         <br>
-                        <label for="origenId">Estado de origen: </label>
-                        <input type="text" id="origenId" name="origen" list="estadosId" />
+                        <label for="asuntoId">Asunto*: </label>
+                        <input type="text" id="asuntoId" name="asunto" size="20" maxlenght="80" required />
                         <br>
-                        <datalist id="estadosId">
-                            <option value="Son">Sonora</option>
-                            <option value="Sin">Sinaloa</option>
-                            <option value="Chi">Chihuahua</option>
-                            <option value="BCN">Baja California Norte</option>
-                            <option value="BCS">Baja California Sur"</option>
-                        </datalist>
-
-
+                        <label for="correoId">Correo*: </label>
+                        <input type="email" id="correoId" name="correo" size="20" maxlenght="80" required />
+                        <br>
                         <label for="numeroId">Calificacion de mi blog, [1, 10]: </label>
                         <input type="number" id="numeroId" name="numero" min="1" max="10" value="5" />
                         <br>
                         <p>Dejanos tu opinion</p>
                         <textarea name="opinion" id="opinionId" cols="50" rows="10"></textarea>
                         <br>
-
                         <input type="submit" name="boton" value="Enviar" style="height:30px;width:50px" />
                         <input type="reset" value="Borrar" style="height:30px;width:50px" />
-
+                        <br>
 
 
                     </form>
